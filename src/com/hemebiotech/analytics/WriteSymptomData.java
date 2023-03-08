@@ -9,7 +9,7 @@ public class WriteSymptomData {
 
 		try {
 			SortedMap compteurstri = new SortedMap();
-			FileWriter writer = new FileWriter("C://Users//Moi//Desktop//OpenClasserooms/result.out");
+			FileWriter writer = new FileWriter("C://Users//Moi//eclipse-workspace//Java Project/result.out");
 			writer.write(" " + compteurstri.finalList());
 			writer.close();
 
